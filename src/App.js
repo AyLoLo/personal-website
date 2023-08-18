@@ -13,7 +13,7 @@ function App() {
         </div>
         <div className='m-20 w-6/12  grid grid-cols-3 grid-rows-1 justify-center items-center'>
           <img className="w-20 m-48 absolute right-px" src={Gmail}/>
-          <img className="w-12 m-32 absolute right-px" src={Github}/>
+          <img className="w-24 m-24 absolute right-px" src={Github}/>
           <img className='w-12 m-12 absolute right-px' src={Dev}/>
         </div>
       </div> 
