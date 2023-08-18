@@ -17,7 +17,9 @@ function App() {
           <a className="absolute right-px m-24" href="https://github.com/AyLoLo" target="_blank" rel="noreferer">
             <img className="w-24" src={Github} alt="Github Logo"/>
           </a>
-          <img className='w-12 m-12 absolute right-px' src={Dev}/>
+          <a className="absolute right-px m-12" href="https://dev.to/aylolo" target="_blank" rel="noreferer">
+            <img className='w-12' src={Dev}/>
+          </a>
         </div>
       </div> 
       <div className="ml-60 relative">
