@@ -7,12 +7,12 @@ import Dev from './assets/Dev.png'
 function App() {
 
   return (
-    <div>
+    <div className='grid grid-rows-3 h-screen'>
       <div className='grid grid-cols-2'>
         <div className='text-white text-4xl font-mono m-12 w-7/12 h-3/4 border-l-4 border-t-4 border-blue-400 relative p-10'>
           @AyLolo
         </div>
-        <div className='m-20 w-6/12  grid grid-cols-3 grid-rows-1 justify-center items-center'>
+        <div className='mb-16 mr-20 w-6/12  grid grid-cols-3 grid-rows-1 justify-center items-center'>
           <a className='absolute right-px m-60' href="mailto:anthonydlr66@gmail.com" target="_blank" rel="noreferer">
             <img className="w-20" src={Gmail}/>
           </a>
@@ -37,12 +37,14 @@ function App() {
         </p>
         <img className="absolute top-px right-px max-w-md mr-40 w-full rounded-lg" src={Me}/> 
       </div>
-      <div className='absolute bottom-px grid grid-cols-2 w-screen'>
-        <div className='text-white'>
-          WHERE ARE YOU
+      <div className='grid grid-cols-3 w-screen'>
+        <div className='text-white text-4xl font-mono'>
+          Projects
         </div>
-        <div className='text-white absolute bottom-px right-px h-5/6 w-4/12 border-blue-400 border-r-4 border-b-4 m-12 p-10'>
-          
+        <div className='border-yellow-400 border-l-4'>
+
+        </div>
+        <div className='border-blue-400 border-r-4 border-b-4 '>
         </div>
       </div>
     </div>
