@@ -5,6 +5,7 @@ import Github from './assets/Github.png';
 import Dev from './assets/Dev.png'
 
 function App() {
+
   return (
     <div>
       <div className='grid grid-cols-2'>
@@ -13,7 +14,9 @@ function App() {
         </div>
         <div className='m-20 w-6/12  grid grid-cols-3 grid-rows-1 justify-center items-center'>
           <img className="w-20 m-48 absolute right-px" src={Gmail}/>
-          <img className="w-24 m-24 absolute right-px" src={Github}/>
+          <a className="absolute right-px m-24" href="https://github.com/AyLoLo" target="_blank" rel="noreferer">
+            <img className="w-24" src={Github} alt="Github Logo"/>
+          </a>
           <img className='w-12 m-12 absolute right-px' src={Dev}/>
         </div>
       </div> 
