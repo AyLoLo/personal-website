@@ -12,9 +12,9 @@ function App() {
           @AyLolo
         </div>
         <div className='m-20 w-6/12  grid grid-cols-3 grid-rows-1 justify-center items-center'>
-          <img className="w-20" src={Gmail}/>
-          <img className="w-12" src={Github}/>
-          <img className='w-12' src={Dev}/>
+          <img className="w-20 m-48 absolute right-px" src={Gmail}/>
+          <img className="w-12 m-32 absolute right-px" src={Github}/>
+          <img className='w-12 m-12 absolute right-px' src={Dev}/>
         </div>
       </div> 
       <div className="ml-60 relative">
@@ -28,7 +28,7 @@ function App() {
             <br></br>
           My passion is to utilize the fundamental knowledge of software design and development to deploy full-stack websites, <br></br> <span className='text-blue-400 text-xl'> focusing on ease of use and efficiency</span>.
         </p>
-        <img className="absolute top-px right-px max-w-md mr-40 w-full rounded-md" src={Me}/> 
+        <img className="absolute top-px right-px max-w-md mr-40 w-full rounded-lg" src={Me}/> 
       </div>
     </div>
   );
