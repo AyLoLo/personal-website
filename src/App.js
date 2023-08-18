@@ -13,12 +13,14 @@ function App() {
           @AyLolo
         </div>
         <div className='m-20 w-6/12  grid grid-cols-3 grid-rows-1 justify-center items-center'>
-          <img className="w-20 m-48 absolute right-px" src={Gmail}/>
-          <a className="absolute right-px m-24" href="https://github.com/AyLoLo" target="_blank" rel="noreferer">
+          <a className='absolute right-px m-60' href="mailto:anthonydlr66@gmail.com" target="_blank" rel="noreferer">
+            <img className="w-20" src={Gmail}/>
+          </a>
+          <a className="absolute right-px m-36" href="https://github.com/AyLoLo" target="_blank" rel="noreferer">
             <img className="w-24" src={Github} alt="Github Logo"/>
           </a>
-          <a className="absolute right-px m-12" href="https://dev.to/aylolo" target="_blank" rel="noreferer">
-            <img className='w-12' src={Dev}/>
+          <a className="absolute right-px m-24" href="https://dev.to/aylolo" target="_blank" rel="noreferer">
+            <img className='w-12' src={Dev} alt="DEV Logo"/>
           </a>
         </div>
       </div> 
@@ -34,6 +36,14 @@ function App() {
           My passion is to utilize the fundamental knowledge of software design and development to deploy full-stack websites, <br></br> <span className='text-blue-400 text-xl'> focusing on ease of use and efficiency</span>.
         </p>
         <img className="absolute top-px right-px max-w-md mr-40 w-full rounded-lg" src={Me}/> 
+      </div>
+      <div className='absolute bottom-px grid grid-cols-2 w-screen'>
+        <div className='text-white'>
+          WHERE ARE YOU
+        </div>
+        <div className='text-white absolute bottom-px right-px h-5/6 w-4/12 border-blue-400 border-r-4 border-b-4 m-12 p-10'>
+          
+        </div>
       </div>
     </div>
   );
