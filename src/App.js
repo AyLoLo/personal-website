@@ -44,12 +44,12 @@ function App() {
         <div className='text-white font-serif text-xl pt-5 pl-16 border-yellow-400 border-l-4 mb-10'>
           <br></br>
           <a href="https://github.com/AyLoLo/PokeGallery" target="_blank" rel="noreferrer">
-            <li>PokeGallery</li>
+            <li className='hover:text-blue-400'>PokeGallery</li>
           </a>
           <br></br>
           <br></br>
           <a href="https://github.com/AyLoLo/Octopath-Hub" target="_blank" rel="noreferrer">
-            <li>Octopath Hub</li>
+            <li className='hover:text-blue-400'>Octopath Hub</li>
           </a>
         </div>
         <div className='border-blue-400 border-r-4 border-b-4 mb-10 mr-10'>
