@@ -14,13 +14,13 @@ function App() {
         </div>
         <div className='mb-16 mr-20 w-6/12  grid grid-cols-3 grid-rows-1 justify-center items-center'>
           <a className='absolute right-px m-60' href="mailto:anthonydlr66@gmail.com" target="_blank" rel="noreferrer">
-            <img className="w-20" src={Gmail}/>
+            <img className="w-20" src={Gmail} alt="Gmail Link"/>
           </a>
           <a className="absolute right-px m-36" href="https://github.com/AyLoLo" target="_blank" rel="noreferrer">
-            <img className="w-24" src={Github} alt="Github Logo"/>
+            <img className="w-24" src={Github} alt="Github Link"/>
           </a>
           <a className="absolute right-px m-24" href="https://dev.to/aylolo" target="_blank" rel="noreferrer">
-            <img className='w-12' src={Dev} alt="DEV Logo"/>
+            <img className='w-12' src={Dev} alt="DEV Link"/>
           </a>
         </div>
       </div> 
@@ -35,7 +35,7 @@ function App() {
             <br></br>
           My passion is to utilize the fundamental knowledge of software design and development to deploy full-stack websites, <br></br> <span className='text-blue-400 text-xl'> focusing on ease of use and efficiency</span>.
         </p>
-        <img className="absolute top-px right-px max-w-md mr-40 w-full rounded-lg" src={Me}/> 
+        <img className="absolute top-px right-px max-w-md mr-40 w-full rounded-lg" alt="Anthony Lopez" src={Me}/> 
       </div>
       <div className='grid grid-cols-3 w-screen pt-20'>
         <div className='text-white text-4xl font-mono text-center pt-20 ml-60'>
