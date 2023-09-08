@@ -6,9 +6,8 @@ import Dev from './assets/Dev.png'
 
 function App() {
 
-  return (
-    <div> 
-        <div className='grid grid-rows-3 min-w-fit min-h-fit text-white'>
+  return ( 
+        <div className='grid grid-rows-3 text-white'>
           <div className='grid grid-cols-2'>
             <div className='border-l-4 border-t-4 border-blue-700 ml-10 mt-10 mr-10 grid grid-rows-2'>
               <span className='font-mono text-3xl p-10'>@AyLoLo</span>
@@ -42,11 +41,15 @@ function App() {
             <img className="w-100 h-80" src={Me} alt="Anthony Lopez"/>
           </div>
         </div>
-        <div className='text-white'>
-          Goodbye
+        <div className='text-white grid grid-cols-3 '>
+          <div className='cols-span-2 h-3/4 p-10 border-r-4 border-yellow-400'>
+            <span className='flex justify-end font-mono text-4xl'>Projects</span>
+          </div>
+          <div className=''>
+            List of Projects
+          </div>
         </div>
       </div>
-    </div>
   );
 }
 
