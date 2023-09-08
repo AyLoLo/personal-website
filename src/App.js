@@ -9,11 +9,19 @@ function App() {
   return (
     <div className='grid grid-rows-3 h-screen text-white'>
       <div className='grid grid-cols-2'>
-        <div>
-          I am here
+        <div className='border-l-4 border-t-4 border-blue-700 m-10 p-10'>
+          <span className='font-mono text-3xl'>@AyLoLo</span>
         </div>
-        <div>
-          You are there
+        <div className='m-10 flex flex-row justify-end'>
+          <a href="https://github.com/AyLoLo" target="_blank" rel="noreffer">
+            <img className='w-20 h-20' src={Github} alt="Github Link"/>
+          </a>
+          <a href="https://dev.to/aylolo" target="_blank" rel="noreffer">
+            <img className="w-20 h-20" src={Dev} alt="Dev Link"/>
+          </a>
+          <a href="malito:anthonydlr66@gmail.com" target='_blank' rel="noreffer">
+            <img className="w-20 h-20" src={Gmail} alt="Gmail Link"/>
+          </a>
         </div>
       </div>
       <div className='text-white'>
