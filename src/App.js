@@ -38,7 +38,9 @@ function App() {
             </div>
           </div>
           <div>
-            <img className="w-100 h-80" src={Me} alt="Anthony Lopez"/>
+            <a href='https://www.linkedin.com/in/anthony-lopez-203492126/' target="_blank" rel="noreferrer">
+              <img className="w-100 h-80 rounded-2xl" src={Me} alt="Anthony Lopez"/>
+            </a>
           </div>
         </div>
         <div className='text-white grid grid-cols-3 '>
