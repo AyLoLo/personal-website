@@ -7,24 +7,24 @@ import Dev from './assets/Dev.png'
 function App() {
 
   return (
-    <div className='relative'>
-      <div className='grid grid-rows-3 h-screen w-screen text-white'>
-        <div className='grid grid-cols-2'>
-          <div className='border-l-4 border-t-4 border-blue-700 ml-10 mt-10 mr-10 grid grid-rows-2'>
-            <span className='font-mono text-3xl p-10'>@AyLoLo</span>
-            <span className='ml-64 mt-10 text-7xl'>Welcome.</span>
-          </div>
-          <div className='m-10 flex flex-row justify-end'>
-            <a className="h-1/3" href="https://github.com/AyLoLo" target="_blank" rel="noreferrer">
-              <img className='w-20 h-20' src={Github} alt="Github Link"/>
-            </a>
-            <a className="h-1/3" href="https://dev.to/aylolo" target="_blank" rel="noreferrer">
-              <img className="w-20 h-20" src={Dev} alt="Dev Link"/>
-            </a>
-            <a className="h-1/3" href="mailto:anthonydlr66@gmail.com" target='_blank' rel="noreferrer">
-              <img className="w-20 h-20" src={Gmail} alt="Gmail Link"/>
-            </a>
-          </div>
+    <div> 
+        <div className='grid grid-rows-3 min-w-fit min-h-fit text-white'>
+          <div className='grid grid-cols-2'>
+            <div className='border-l-4 border-t-4 border-blue-700 ml-10 mt-10 mr-10 grid grid-rows-2'>
+              <span className='font-mono text-3xl p-10'>@AyLoLo</span>
+              <span className='ml-64 mt-10 text-7xl'>Welcome.</span>
+            </div>
+            <div className='m-10 flex flex-row justify-end'>
+              <a className="h-1/3" href="https://github.com/AyLoLo" target="_blank" rel="noreferrer">
+                <img className='w-20 h-20' src={Github} alt="Github Link"/>
+              </a>
+              <a className="h-1/3" href="https://dev.to/aylolo" target="_blank" rel="noreferrer">
+                <img className="w-20 h-20" src={Dev} alt="Dev Link"/>
+              </a>
+              <a className="h-1/3" href="mailto:anthonydlr66@gmail.com" target='_blank' rel="noreferrer">
+                <img className="w-20 h-20" src={Gmail} alt="Gmail Link"/>
+              </a>
+            </div>
         </div>
         <div className='grid grid-cols-4'>
           <div className='col-span-3 ml-60 border-l-4 border-yellow-400'>
