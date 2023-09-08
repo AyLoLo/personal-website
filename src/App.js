@@ -42,11 +42,16 @@ function App() {
           </div>
         </div>
         <div className='text-white grid grid-cols-3 '>
-          <div className='cols-span-2 h-3/4 p-10 border-r-4 border-yellow-400'>
+          <div className='cols-span-2 h-3/4 p-20 border-r-4 border-yellow-400'>
             <span className='flex justify-end font-mono text-4xl'>Projects</span>
           </div>
-          <div className=''>
-            List of Projects
+          <div className='grid grid-rows-2 p-10 text-xl'>
+            <a className="w-1/4 h-1/4" href="https://github.com/AyLoLo/Octopath-Hub" target="_blank" rel="noreferrer">
+              <span>Octopath Hub</span>
+            </a>
+            <a className="w-1/4 h-1/4" href="https://github.com/AyLoLo/PokeGallery" target="_blank" rel="noreferrer">
+              <span>PokeGallery</span>
+            </a>
           </div>
         </div>
       </div>
