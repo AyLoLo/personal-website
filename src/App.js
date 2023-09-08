@@ -38,7 +38,7 @@ function App() {
           </div>
         </div>
         <div>
-          Scooby
+          <img className="w-100 h-80" src={Me} alt="Anthony Lopez"/>
         </div>
       </div>
       <div className='text-white'>
